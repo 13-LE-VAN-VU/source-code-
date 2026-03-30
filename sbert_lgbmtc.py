@@ -1,23 +1,3 @@
-"""
-================================================================
-SBERT-LGBMTC: Tự động ước lượng Story Point trong Agile
-Tái hiện từ: Yalçıner et al., Applied Sciences 2024
-================================================================
-
-Cài đặt thư viện:
-    pip install sentence-transformers lightgbm scikit-learn pandas numpy
-
-Dữ liệu TAWOS:
-    https://zenodo.org/record/6363556
-
-Chạy thử nhanh với dữ liệu mẫu tổng hợp (không cần tải TAWOS):
-    python sbert_lgbmtc.py --demo
-
-Chạy với dữ liệu thật:
-    python sbert_lgbmtc.py --data path/to/tawos.csv
-================================================================
-"""
-
 import argparse
 import warnings
 import numpy as np
